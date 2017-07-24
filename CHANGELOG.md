@@ -12,11 +12,7 @@
 - [#8426](https://github.com/influxdata/influxdb/issues/8426): Add `parse-multivalue-plugin` to allow users to choose how multivalue plugins should be handled by the collectd service.
 - [#8548](https://github.com/influxdata/influxdb/issues/8548): Allow panic recovery to be disabled when investigating server issues.
 - [#8525](https://github.com/influxdata/influxdb/issues/8525): Support http pipelining for /query endpoint.
-- [#8652](https://github.com/influxdata/influxdb/pull/8652): Reduce allocations when reading data
-- [#8592](https://github.com/influxdata/influxdb/pull/8592): Mutex profiles are now available.
-- [#8669](https://github.com/influxdata/influxdb/pull/8669): TSI Index Migration Tool
-- [#7195](https://github.com/influxdata/influxdb/issues/7195): Support SHOW CARDINALITY queries.
-- [#8711](https://github.com/influxdata/influxdb/pull/8711): Batch up writes for monitor service
+- [#8611](https://github.com/influxdata/influxdb/issues/8611): Respect X-Request-Id/Request-Id headers.
 
 ### Bugfixes
 
